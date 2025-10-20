@@ -1,0 +1,5 @@
+You can not change the values inside a list contained in a set in python. Infact, you cannot even 
+have a list as an element in  a set because sets in python require all thier elements to be immutable and hashable.
+Lists are not immutable and not hashable, so they can not be added to a set.
+
+-->If you try to create a set with a list as one of its element, python will raise a "Type error".
