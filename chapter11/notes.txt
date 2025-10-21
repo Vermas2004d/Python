@@ -1,0 +1,17 @@
+#Types of inheritance:
+-->single inheritance
+-->Multiple inheritance -- > when child class inherits from more than one parent class
+-->Multilevel inheritance --> when a child class becomes the parent of the another class..
+
+
+#Super method:
+super() method is used to access the methods of super class in the derived class.
+
+#Class method:
+-->A class method is a method which is bound to the class and not the object
+of the class.
+
+@classmethod decorator is used to create a class method..
+syntax:
+@classmethod
+    def(cls , p1 ,p2):
