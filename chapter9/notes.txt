@@ -1,0 +1,12 @@
+The random acccess memory is volatile, and all its contents are lost once a program terminates in order to
+persist the data forever ,we use files.
+-->A file is data stored in a storage device. A python program can talk
+to the file by reading content from it and writing content to it..
+
+Types of files:
+1-->text files(.txt etc)
+2-->binary files(.jpg etc)
+
+#With statements in python:
+The best way to open and close the file automaticaaly is with statement..
+

@@ -1,0 +1,18 @@
+harry is a good boy
+twinkle twinkle 
+little
+ star 
+ how i wonder 
+ what you are
+
+
+ #Modes for opening a file:
+
+ r - open for reading
+ w - open for writing
+ a - open for appending
+ + - open for updating
+ 'rb' - will open for read in binary mode.
+ 'rt' - will open for read in text mode.
+
+ this is the appened datathis is the appended data
