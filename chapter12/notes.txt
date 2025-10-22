@@ -1,0 +1,33 @@
+Advance python:
+
+##Dictionary Merge and Update Operators
+-->New operators | and  |= allow for merging and updating dictionaries.
+
+dict1 = {'a': 1 , 'b': 2}
+dict2= {'b': 3 , 'c': 4}
+merged = dict1 | dict2
+print(merged) #output: {'a': 1 , 'b':3 , 'c': 4}
+
+
+##for the file handling update:
+-->You can use now multiple context managers in single {with} statement more cleanly
+using the parameterised context manager..
+
+with(
+    open('file.txt') as f1,
+    open(file2.txt') as f2
+):
+
+#process files.. -->try this..
+
+
+##If __NAME__ == __MAIN__ in python
+-->'__name__' evaluates to the name of the module in python from where the program is ran.
+
+
+##List comprehensions
+-->List Comprehension is an elegant way to create lists based on existing lists.
+list1 = [1,7,12,11,22, ]
+list2 = [i for item in list 1 if item > 8]
+
+
