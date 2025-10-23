@@ -1,0 +1,45 @@
+##Pip Freeze Command:
+'pip freeze' returns all the packages installed in a given
+python environement along with the versions.
+
+--> pip freeze > requirements.txt
+The above command creates a file named "requirements.txt" in the
+same directory containing the output of 'pip freeze'.
+
+-->We can distribute this file to other users, they can recreate the same
+environment using:
+pip install -r requirements.txt
+
+##Lamdba functions:
+-->Function created using an expression using 'lambda' keyword..
+
+Example:
+    square = lambda x:x*x
+    square(6) # returns 36
+    sum = lambda a,b,c:a+b+c
+    sum(1,2,3) #returns 6
+
+## Join Method(Strings):
+Creates a string from iterable objects
+l = ["apple" , "mango" , "banana"]
+result = " , and, ".join(1)
+print(result)
+The above line will return " apple,and,mango,and,banana".
+
+##Map, filter, reduce: 
+-->Map applies a function to all the items in an input_list.
+Syntax:
+map(function , input_list)
+# the function can be lambda function
+
+-->Filter creates a list of items for which the function returns true.
+list(filter(function))
+# the function can be lambda function
+
+-->Reduce applies a rolling computation to sequential pair of elements..
+from functools import reduce
+val = reduce(function , list1)
+#The function can be lambda function
+
+
+    
